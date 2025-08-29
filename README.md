@@ -84,3 +84,51 @@ We will get a good amount of practice.
 This project is licensed under the MIT License as an example project. 
 You are encouraged to fork, copy, explore, and modify the code as you like. 
 See the [LICENSE](LICENSE.txt) file for more.
+
+
+## Custom Producer and Consumer Scripts
+
+### How to Run Your Custom Producer
+Windows PowerShell:
+
+.venv\Scripts\activate
+python -m producers.basic_producer_raginisin
+
+
+### How to Run Your Custom Consumer
+Windows PowerShell:
+
+.venv\Scripts\activate
+python -m consumers.basic_consumer_raginisin
+
+
+## Task 1: Create a Unique Producer
+
+1. Add a new Python script in the `producers` folder.
+2. Name your script using your unique identifier (e.g., "basic_producer_raginisin.py").
+3. Copy and paste the content from the example file into yours.
+4. Git add, commit, and push your changes to your GitHub repo before making any other changes.
+5. Modify your Python generator to produce custom messages.
+6. Log these messages using the provided logger.
+7. As you work, git add, commit, and push your changes to your GitHub repo. (Frequent small commits are helpful.)
+
+## Task 2: Create a Unique Consumer
+
+1. Add a new Python script in the `consumers` folder.
+2. Name your script uniquely (e.g., "basic_consumer_raginisin.py").
+3. Copy and paste the content from the example file into yours.
+4. Git add, commit, and push your changes to your GitHub repo before making any other changes.
+5. Continue to read the log file in real time as we did in the example.
+
+
+Here are the instructions for running your new custom producer and consumer Python scripts
+
+
+.venv/bin/activate
+python3 -m producers.basic_producer_raginisin
+
+
+.venv\Scripts\activate
+python -m consumers.basic_consumer_raginisin
+
+
